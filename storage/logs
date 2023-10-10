@@ -1,0 +1,50 @@
+2023/10/08 15:16:35 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696749395895315100}
+2023/10/08 15:27:45 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696750065374949100}
+2023/10/08 16:57:22 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696755442220501400}
+2023/10/08 17:23:51 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696757031012992200}
+2023/10/08 18:34:22 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696761262222634300}
+2023/10/08 18:46:35 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696761995884618200}
+2023/10/08 19:00:36 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696762836548871900}
+2023/10/08 19:02:01 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696762921365973700}
+2023/10/09 09:47:26 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696816046474699100}
+2023/10/09 09:53:47 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696816427488707000}
+2023/10/09 10:00:41 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1696816841328858100}
+2023/10/09 15:51:48 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696837908207824200}
+2023/10/09 15:57:50 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: CreatedBy长度必须至少为3个字符,Name长度必须至少为3个字符","time":1696838270725265300}
+2023/10/09 16:01:44 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"svc.CreateTag err: Error 1146: Table 'blog_sys.tag' doesn't exist","time":1696838504194690800}
+2023/10/09 16:01:49 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"svc.CreateTag err: Error 1146: Table 'blog_sys.tag' doesn't exist","time":1696838509981387600}
+2023/10/09 16:08:02 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"svc.CreateTag err: Error 1146: Table 'blog_sys.tag' doesn't exist","time":1696838882765406700}
+2023/10/09 16:27:11 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696840031134683800}
+2023/10/10 09:50:58 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696902658737983500}
+2023/10/10 09:56:41 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: Name为必填字段","time":1696903001711225300}
+2023/10/10 09:56:50 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: Name为必填字段","time":1696903010639602800}
+2023/10/10 09:58:02 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696903082120498600}
+2023/10/10 09:58:05 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: Name长度必须至少为3个字符","time":1696903085602140900}
+2023/10/10 09:58:37 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: Name长度必须至少为3个字符","time":1696903117878530800}
+2023/10/10 10:01:05 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696903265104667100}
+2023/10/10 10:01:10 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: Name长度必须至少为2个字符","time":1696903270835952500}
+2023/10/10 10:09:10 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696903750048792900}
+2023/10/10 10:09:13 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: Name长度必须至少为2个字符","time":1696903753969043800}
+2023/10/10 10:09:17 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: Name长度必须至少为2个字符","time":1696903757797454900}
+2023/10/10 10:14:58 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: Name长度必须至少为2个字符","time":1696904098990811500}
+2023/10/10 10:15:07 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696904107540150200}
+2023/10/10 10:15:11 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: Name长度必须至少为2个字符","time":1696904111732226900}
+2023/10/10 10:15:15 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: Name长度必须至少为2个字符","time":1696904115054531900}
+2023/10/10 10:15:46 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696904146665587900}
+2023/10/10 10:30:20 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696905020209690600}
+2023/10/10 12:06:55 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696910815116707700}
+2023/10/10 12:28:31 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696912111413075200}
+2023/10/10 14:22:09 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696918929265043100}
+2023/10/10 14:29:20 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696919360017888400}
+2023/10/10 14:40:18 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696920018464296800}
+2023/10/10 14:40:36 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696920036076691300}
+2023/10/10 16:15:57 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696925757737900000}
+2023/10/10 16:18:22 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1696925902796356800}
+2023/10/10 16:18:35 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1696925915576382900}
+2023/10/10 16:19:35 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1696925975574371000}
+2023/10/10 16:20:10 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1696926010159835900}
+2023/10/10 16:20:20 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1696926020226158300}
+2023/10/10 16:22:20 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1696926140825505200}
+2023/10/10 16:24:28 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1696926268596592300}
+2023/10/10 16:28:43 {"callers":["E:/Code/GoWorkspace/blog-service/main.go: 25 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1696926523022885500}
+
