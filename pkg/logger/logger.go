@@ -161,3 +161,11 @@ func (l *Logger) Error(v ...interface{}) {
 func (l *Logger) Errorf(format string, v ...interface{}) {
 	l.Output(LevelError, fmt.Sprintf(format, v...))
 }
+
+func (l *Logger) Panic(v ...interface{}) {
+	l.Output(LevelError, fmt.Sprint(v...))
+}
+
+func (l *Logger) Panicf(format string, v ...interface{}) {
+	l.Output(LevelError, fmt.Sprintf(format, v...))
+}

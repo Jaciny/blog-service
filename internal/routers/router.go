@@ -6,15 +6,33 @@ import (
 	"github.com/gin/blog-service/global"
 	"github.com/gin/blog-service/internal/middleware"
 	"github.com/gin/blog-service/internal/routers/api/v1"
+	"github.com/gin/blog-service/pkg/limiter"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"net/http"
+	"time"
 )
 
+var methodLimiters = limiter.NewMethodLimiter().AddBuckets(limiter.LimiterBucketRule{
+	Key:          "/auth",
+	FillInterval: time.Second,
+	Capacity:     10,
+	Quantum:      10,
+})
+
 func NewRouter() *gin.Engine {
+
 	e := gin.New()
-	e.Use(gin.Logger())
-	e.Use(gin.Recovery())
+	if global.ServerSetting.RunMode == "debug" {
+		e.Use(gin.Logger())
+		e.Use(gin.Recovery())
+	} else {
+		e.Use(middleware.AccessLog())
+		e.Use(middleware.Recovery())
+	}
+
+	e.Use(middleware.RateLimiter(methodLimiters))
+	e.Use(middleware.ContextTimeout(60 * time.Second))
 	e.Use(middleware.Translations())
 	e.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 	e.POST("/auth", v1.GetAuth)

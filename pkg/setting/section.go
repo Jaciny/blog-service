@@ -10,15 +10,16 @@ type ServerSettingS struct {
 }
 
 type AppSettingS struct {
-	DefaultPageSize      int
-	MaxPageSize          int
-	LogSavePath          string
-	LogFileName          string
-	LogFileExt           string
-	UploadSavePath       string
-	UploadServerUrl      string
-	UploadImageMaxSize   int
-	UploadImageAllowExts []string
+	DefaultPageSize       int
+	MaxPageSize           int
+	LogSavePath           string
+	LogFileName           string
+	LogFileExt            string
+	UploadSavePath        string
+	UploadServerUrl       string
+	UploadImageMaxSize    int
+	UploadImageAllowExts  []string
+	DefaultContextTimeout int
 }
 
 //数据库配置信息
@@ -44,6 +45,18 @@ type JWTSettingS struct {
 	Expire time.Duration //token过期时间
 }
 
+type EmailSettingS struct {
+	Host     string
+	Port     int
+	UserName string
+	Password string
+	IsSSL    bool
+	From     string
+	To       []string
+}
+
+//读取配置可以直接通过vipper，利用对应的key读出来，但是需要声明一个与之内容匹配的对象，
+//来接收他，这就是为什么需要在这里定义设置的结构体
 func (s *Setting) ReadSection(k string, v interface{}) error {
 	err := s.vp.UnmarshalKey(k, v)
 	if err != nil {

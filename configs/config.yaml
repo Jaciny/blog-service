@@ -16,6 +16,7 @@ App:
     - .jpg
     - .jpeg
     - .png
+  DefaultContextTimeout: 60 #context过期时间,second
 Database:
   DBType: mysql
   Username: root  # 填写你的数据库账号
@@ -31,3 +32,12 @@ JWT:
   Secret: kunx
   Issuer: blog-service
   Expire: 7200  #second
+Email:
+  Host: smtp.qq.com
+  Port: 465
+  UserName: xxxx@qq.com
+  Password: xxxxxxxx
+  IsSSL: true
+  From: xxxx@qq.com
+  To:
+    - xxxx@qq.com
